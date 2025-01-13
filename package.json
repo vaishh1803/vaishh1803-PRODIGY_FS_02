@@ -1,0 +1,40 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/x-date-pickers": "^7.12.0",
+    "@types/axios": "^0.9.36",
+    "@types/mongoose": "^5.11.96",
+    "axios": "^1.7.3",
+    "dayjs": "^1.11.12",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.12",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.5.2",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-filepond": "^7.1.2",
+    "react-spinners": "^0.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
